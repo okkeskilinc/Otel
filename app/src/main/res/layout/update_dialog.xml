@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/et_r_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et_r_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type" />
+    <EditText
+        android:id="@+id/et_r_kat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kat No" />
+
+    <EditText
+        android:id="@+id/et_r_durum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Durum" />
+
+    <Button
+        android:id="@+id/btn_r_guncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:textColor="#009624"
+        android:textSize="18sp"
+        android:theme="@style/PrimaryFlatButton" />
+
+</LinearLayout>

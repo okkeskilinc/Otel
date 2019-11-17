@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Otel</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="userdelete">User Delete</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="Rezervation">REZERVATION</string>
+    <string name="Satis">Satış</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <style name="sans">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+    <string name="facebook_app_id">2301792770048866</string>
+    <string name="fb_login_protocol_scheme">fb2301792770048866</string>
+    <string name="title_activity_main_gecis">MainGecis</string>
+</resources>

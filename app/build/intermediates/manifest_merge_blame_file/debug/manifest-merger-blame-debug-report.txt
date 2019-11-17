@@ -1,0 +1,349 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.okkeskilinc.otel"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\863cf6d31a7e17d0203a9be2fe7f832e\firebase-measurement-connector-impl-17.0.4\AndroidManifest.xml:24:5-68
+14-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\863cf6d31a7e17d0203a9be2fe7f832e\firebase-measurement-connector-impl-17.0.4\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:26:5-110
+15-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:9:5-64:19
+19        android:allowBackup="true"
+19-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+20-->[com.android.support:support-compat:28.0.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\04b7991bd863379b8d98e91bbafdb10f\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:15:9-40
+28        <meta-data
+28-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:17:9-19:55
+29            android:name="com.facebook.sdk.ApplicationId"
+29-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:18:13-58
+30            android:value="@string/facebook_app_id" />
+30-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:19:13-52
+31
+32        <activity
+32-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:21:9-24:48
+33            android:name="com.facebook.FacebookActivity"
+33-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:22:13-57
+34            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+34-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:23:13-96
+35            android:label="@string/app_name"
+35-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:24:13-45
+36            android:theme="@style/com_facebook_activity_theme" />
+36-->[com.facebook.android:facebook-common:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\2e2c96c419646d84f386b186f59c864f\facebook-common-4.38.1\AndroidManifest.xml:32:13-63
+37        <activity
+37-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:25:9-36:20
+38            android:name="com.facebook.CustomTabActivity"
+38-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:26:13-58
+39            android:exported="true" >
+39-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:27:13-36
+40            <intent-filter>
+40-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:28:13-35:29
+41                <action android:name="android.intent.action.VIEW" />
+41-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:29:17-69
+41-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:17-76
+43-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:27-73
+44                <category android:name="android.intent.category.BROWSABLE" />
+44-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:32:17-78
+44-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:32:27-75
+45
+46                <data android:scheme="@string/fb_login_protocol_scheme" />
+46-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:34:17-75
+46-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:34:23-72
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.okkeskilinc.otel.MainActivity" >
+49-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:40:9-46:20
+49-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:40:19-47
+50            <intent-filter>
+50-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:41:13-45:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:17-69
+51-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:25-66
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:17-76
+53-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:27-73
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.example.okkeskilinc.otel.LoginActivity" >
+56-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:48:9-54:20
+56-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:48:19-48
+57            <intent-filter>
+57-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:49:13-53:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:17-69
+58-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:52:17-77
+60-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:52:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.okkeskilinc.otel.ResetPasswordActivity" >
+63-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:57:9-63:20
+63-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:57:19-56
+64            <intent-filter>
+64-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:41:13-45:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:17-69
+65-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:42:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:17-76
+67-->C:\Users\buzzkey\AndroidStudioProjects\otel06-12-18-05-48\app\src\main\AndroidManifest.xml:31:27-73
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:24:9-31:50
+71            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+71-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:25:13-85
+72            android:excludeFromRecents="true"
+72-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:26:13-46
+73            android:exported="true"
+73-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:27:13-36
+74            android:launchMode="singleTask"
+74-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:28:13-44
+75            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+75-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:29:13-102
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:30:13-72
+77
+78        <service
+78-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:33:9-39:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:34:13-84
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:35:13-37
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:36:13-38:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:37:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9453e822d47d88fdba477181417c64d4\firebase-auth-16.1.0\AndroidManifest.xml:38:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\863cf6d31a7e17d0203a9be2fe7f832e\firebase-measurement-connector-impl-17.0.4\AndroidManifest.xml:28:13-30:85
+85                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+85-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\863cf6d31a7e17d0203a9be2fe7f832e\firebase-measurement-connector-impl-17.0.4\AndroidManifest.xml:29:17-139
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-measurement-connector-impl:17.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\863cf6d31a7e17d0203a9be2fe7f832e\firebase-measurement-connector-impl-17.0.4\AndroidManifest.xml:30:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+88-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <activity
+92-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+93            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+93-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+94            android:excludeFromRecents="true"
+94-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+97        <!--
+98            Service handling Google Sign-In user revocation. For apps that do not integrate with
+99            Google Sign-In, this service will never be started.
+100        -->
+101        <service
+101-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+102            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+102-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+103            android:exported="true"
+103-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+104            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+104-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\ea19f58907d66af95ee2a9e55773aa58\play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+105
+106        <receiver
+106-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:29:9-33:20
+107            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+107-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:30:13-85
+108            android:enabled="true"
+108-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:31:13-35
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:32:13-37
+110        </receiver>
+111        <receiver
+111-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:34:9-42:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+112-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:35:13-100
+113            android:enabled="true"
+113-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:36:13-35
+114            android:exported="true"
+114-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:37:13-36
+115            android:permission="android.permission.INSTALL_PACKAGES" >
+115-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:38:13-69
+116            <intent-filter>
+116-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:39:13-41:29
+117                <action android:name="com.android.vending.INSTALL_REFERRER" />
+117-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:40:17-79
+117-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:40:25-76
+118            </intent-filter>
+119        </receiver>
+120
+121        <service
+121-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:44:9-47:40
+122            android:name="com.google.android.gms.measurement.AppMeasurementService"
+122-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:45:13-84
+123            android:enabled="true"
+123-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:46:13-35
+124            android:exported="false" />
+124-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:47:13-37
+125        <service
+125-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:48:9-52:72
+126            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+126-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:49:13-87
+127            android:enabled="true"
+127-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:50:13-35
+128            android:exported="false"
+128-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:51:13-37
+129            android:permission="android.permission.BIND_JOB_SERVICE" />
+129-->[com.google.firebase:firebase-analytics:16.0.6] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\7c7b041bd63cf0e5c0ff90c2966413c9\firebase-analytics-16.0.6\AndroidManifest.xml:52:13-69
+130
+131        <receiver
+131-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+132            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+132-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+133            android:exported="true"
+133-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+134            android:permission="com.google.android.c2dm.permission.SEND" >
+134-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+135            <intent-filter>
+135-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+136                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+136-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+136-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+137            </intent-filter>
+138        </receiver>
+139        <!--
+140             FirebaseInstanceIdService performs security checks at runtime,
+141             no need for explicit permissions despite exported="true"
+142        -->
+143        <service
+143-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+144            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+144-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+145            android:exported="true" >
+145-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+146            <intent-filter android:priority="-500" >
+146-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+146-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+147                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+147-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+147-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\9c55e34559140184e7e4bd3db0bf29ea\firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+148            </intent-filter>
+149        </service>
+150
+151        <activity
+151-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\6ed376ce3d4826f20aa4fd94474c04d3\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+152-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\6ed376ce3d4826f20aa4fd94474c04d3\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\6ed376ce3d4826f20aa4fd94474c04d3\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+154-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\6ed376ce3d4826f20aa4fd94474c04d3\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+155
+156        <provider
+156-->[com.google.firebase:firebase-common:16.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\a4f41943ce879c6ade19a7481dad37b6\firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+157            android:name="com.google.firebase.provider.FirebaseInitProvider"
+157-->[com.google.firebase:firebase-common:16.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\a4f41943ce879c6ade19a7481dad37b6\firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+158            android:authorities="com.example.okkeskilinc.otel.firebaseinitprovider"
+158-->[com.google.firebase:firebase-common:16.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\a4f41943ce879c6ade19a7481dad37b6\firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+159            android:exported="false"
+159-->[com.google.firebase:firebase-common:16.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\a4f41943ce879c6ade19a7481dad37b6\firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+160            android:initOrder="100" />
+160-->[com.google.firebase:firebase-common:16.0.4] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\a4f41943ce879c6ade19a7481dad37b6\firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\05ee08e1b7b68059f39aa5dfc2445563\play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\05ee08e1b7b68059f39aa5dfc2445563\play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\05ee08e1b7b68059f39aa5dfc2445563\play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+165
+166        <activity android:name="com.facebook.CustomTabMainActivity" />
+166-->[com.facebook.android:facebook-common:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\2e2c96c419646d84f386b186f59c864f\facebook-common-4.38.1\AndroidManifest.xml:33:9-71
+166-->[com.facebook.android:facebook-common:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\2e2c96c419646d84f386b186f59c864f\facebook-common-4.38.1\AndroidManifest.xml:33:19-68
+167
+168        <provider
+168-->[com.facebook.android:facebook-marketing:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\968f8796029168a51105e0fa04373e56\facebook-marketing-4.38.1\AndroidManifest.xml:29:9-32:40
+169            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+169-->[com.facebook.android:facebook-marketing:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\968f8796029168a51105e0fa04373e56\facebook-marketing-4.38.1\AndroidManifest.xml:30:13-81
+170            android:authorities="com.example.okkeskilinc.otel.MarketingInitProvider"
+170-->[com.facebook.android:facebook-marketing:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\968f8796029168a51105e0fa04373e56\facebook-marketing-4.38.1\AndroidManifest.xml:31:13-73
+171            android:exported="false" />
+171-->[com.facebook.android:facebook-marketing:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\968f8796029168a51105e0fa04373e56\facebook-marketing-4.38.1\AndroidManifest.xml:32:13-37
+172        <!--
+173         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+174         with the application context. This config is merged in with the host app's manifest,
+175         but there can only be one provider with the same authority activated at any given
+176         point; so if the end user has two or more different apps that use Facebook SDK, only the
+177         first one will be able to use the provider. To work around this problem, we use the
+178         following placeholder in the authority to identify each host application as if it was
+179         a completely different provider.
+180        -->
+181        <provider
+181-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:39:9-42:40
+182            android:name="com.facebook.internal.FacebookInitProvider"
+182-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:40:13-70
+183            android:authorities="com.example.okkeskilinc.otel.FacebookInitProvider"
+183-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:41:13-72
+184            android:exported="false" />
+184-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:42:13-37
+185
+186        <receiver
+186-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:44:9-50:20
+187            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+187-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:45:13-86
+188            android:exported="false" >
+188-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:46:13-37
+189            <intent-filter>
+189-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:47:13-49:29
+190                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+190-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:48:17-95
+190-->[com.facebook.android:facebook-core:4.38.1] C:\Users\buzzkey\.gradle\caches\transforms-2\files-2.1\99ae15a52fa81816d0951145bc39545c\facebook-core-4.38.1\AndroidManifest.xml:48:25-92
+191            </intent-filter>
+192        </receiver>
+193    </application>
+194
+195</manifest>

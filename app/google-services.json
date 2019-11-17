@@ -1,0 +1,80 @@
+{
+  "project_info": {
+    "project_number": "799332208126",
+    "firebase_url": "https://otelim-26b28.firebaseio.com",
+    "project_id": "otelim-26b28",
+    "storage_bucket": "otelim-26b28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799332208126:android:facfca309a7d74c8",
+        "android_client_info": {
+          "package_name": "com.example.okkeskilinc.otel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799332208126-fh3r1vduneupb1u6uf5fblig19j3ere8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okkeskilinc.otel",
+            "certificate_hash": "c3c34d0746ac83a3962be44925e7ef2f3ce13e60"
+          }
+        },
+        {
+          "client_id": "799332208126-gd2qdh22jbte353dsji2bh5u41dkl9t4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okkeskilinc.otel",
+            "certificate_hash": "a2d8cfba862e597a8b13fafa45d12f2e2a98b2bf"
+          }
+        },
+        {
+          "client_id": "799332208126-34lfa5a0o9n8lfugts67us64h0mmgrss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okkeskilinc.otel",
+            "certificate_hash": "f10e6d8e66dd207781d3b3bd8edb5d5689c40dba"
+          }
+        },
+        {
+          "client_id": "799332208126-2573fs16un5njl7dqu19dr5mq8e73pic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okkeskilinc.otel",
+            "certificate_hash": "879f031d5619454b49d2729a9d8883e50be75a5e"
+          }
+        },
+        {
+          "client_id": "799332208126-kgc97a91tsk86soqsvli0atdnn8h5d9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okkeskilinc.otel",
+            "certificate_hash": "20f5d92d1b61e2c203353c071f52a0f7d4aa5fb8"
+          }
+        },
+        {
+          "client_id": "799332208126-i20kg82pojj4c4r00m0rv5dl36rs2h20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfbOY_E7k0CM-du8dbpnCqVN4_8b7SZjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799332208126-b1tdjgk48q84kdqrf55s0h8kni5oae9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

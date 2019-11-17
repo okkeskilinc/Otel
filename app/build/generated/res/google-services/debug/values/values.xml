@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">799332208126-i20kg82pojj4c4r00m0rv5dl36rs2h20.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://otelim-26b28.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">799332208126</string>
+    <string name="google_api_key" translatable="false">AIzaSyAfbOY_E7k0CM-du8dbpnCqVN4_8b7SZjQ</string>
+    <string name="google_app_id" translatable="false">1:799332208126:android:facfca309a7d74c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAfbOY_E7k0CM-du8dbpnCqVN4_8b7SZjQ</string>
+    <string name="google_storage_bucket" translatable="false">otelim-26b28.appspot.com</string>
+    <string name="project_id" translatable="false">otelim-26b28</string>
+</resources>

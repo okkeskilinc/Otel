@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bedroom3">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittextstyle"
+        android:layout_gravity="center"
+        android:hint="Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/et_tc"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle"
+        android:layout_gravity="center"
+        android:hint="TC kimlik"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/et_adres"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle"
+        android:layout_gravity="center"
+        android:hint="Address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textMultiLine"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:text="Dogum Tarihi: "
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDogum"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:text="Seciniz..."
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvEntry"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:text="Giris Tarihi"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvOut"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/edittextstyle"
+            android:gravity="center"
+            android:text="CIKIS Tarihi"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spn_rooms"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextstyle" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnsatis"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonselector"
+            android:text="@string/Satis" />
+
+        <Button
+            android:id="@+id/btnrezerve"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonselector"
+            android:text="@string/Rezervation" />
+
+    </LinearLayout></LinearLayout>
+</RelativeLayout>

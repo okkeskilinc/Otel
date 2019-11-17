@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/customer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adı"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/customer_TC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TC No"
+                android:layout_below="@id/customer_name"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/customer_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adres"
+                android:layout_below="@+id/customer_TC"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/customer_telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefon"
+                android:layout_below="@id/customer_address"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:orientation="vertical"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@+id/img_info"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="#c5e1a5"
+                app:srcCompat="@android:drawable/ic_menu_info_details" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

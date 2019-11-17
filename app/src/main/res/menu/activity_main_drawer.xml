@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="Login" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/com_facebook_tooltip_blue_xout"
+            android:title="Logout" />
+
+        <item
+                android:id="@+id/nav_menu"
+                android:icon="@mipmap/ic_reception"
+                android:title="Ana Menu"/>
+        <item
+            android:id="@+id/nav_bedfull"
+            android:icon="@mipmap/ic_bedfull"
+            android:title="Dolu Oda " />
+        <item
+            android:id="@+id/nav_bednull"
+            android:icon="@mipmap/ic_bednull"
+            android:title="Boş Oda" />
+        <item
+            android:id="@+id/nav_costumer"
+            android:icon="@mipmap/ic_costumer"
+            android:title="Müşteri Bilgi" />
+    </group>
+
+</menu>
